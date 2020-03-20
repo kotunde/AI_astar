@@ -197,7 +197,7 @@ bool traverser(int n, int solseq, int pcost,int nvisited, int heuristic)
 				printf("Megoldas koltsege: %i\n", node.g);
 			}
 			if (nvisited)
-			{
+			{ 
 				printf("Meglatogatott csomopontok szama: %i\n",numberOfVisitedNodes);
 			}
 			return true;
