@@ -266,7 +266,7 @@ bool traverser(int n, int solseq, int pcost,int nvisited, int heuristic)
 						}
 						else
 						{
-							OPEN.erase(xNode);
+							CLOSED.erase(xNode);
 						}
 					}
 					OPEN.insert(childNode);			
